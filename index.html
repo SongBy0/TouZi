@@ -2,18 +2,41 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="static/css/index.css" type="text/css" />
-    <script type="text/javascript" src="static/js/index.js"></script>
-    <script type="text/javascript" src="static/api/index.json"></script>
-    <title>骰子入门教学</title>
+    <meta name="author" content="SongBy">
+    <link rel="stylesheet" href="webapp/static/css/index.css"/>
+    <script src="webapp/static/js/index.js"></script>
+    <script src="webapp/static/api/index.json"></script>
+    <script src="webapp/static/js/rpx4html.js"></script>
+    <title>玩游戏赢西瓜</title>
+
 </head>
 <body>
 <div>
     <div class="cover">
-        <image src="static/images/logo.jpg" class="logo"></image>
+        <image src="webapp/static/images/logo.jpg" class="logo"></image>
     </div>
-    <div class="title">嗨~这是一个测试</div>
-    <div class="desc">这里是测试的小程序版本1.0</div>
+    <div class="title">玩游戏赢西瓜</div>
+    <div class="desc">在以下四个游戏中任选一个，不会玩可以根据教学学习</div>
+    <div class="desc">游戏胜利即可免费得一盒西瓜</div>
+    <div class="desc">游戏失败还请支持买一盒西瓜</div>
+    <div class="choose">
+        <div>
+            <a class="join" href="webapp/WEB-INF/pages/twentyFour/index.html">
+                <button>二十四点教学</button>
+            </a>
+            <a class="join" href="webapp/WEB-INF/pages/dice/index.html">
+                <button>摇骰子教学</button>
+            </a>
+        </div>
+        <div>
+            <a class="join" href="webapp/WEB-INF/pages/gobang/index.html">
+                <button>五子棋教学</button>
+            </a>
+            <a class="join" href="webapp/WEB-INF/pages/rockPaperScissors/index.html">
+                <button>石头剪刀布教学</button>
+            </a>
+        </div>
+    </div>
 
 </div>
 </body>
