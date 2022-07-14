@@ -1,0 +1,66 @@
+.cover {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 80px;
+}
+
+.logo {
+    width: 160px;
+    height: 160px;
+}
+
+.title {
+    font-weight: 500;
+    color: #000000;
+    font-size: 44px;
+    margin: 50px 32px;
+}
+
+.desc {
+    font-size: 28px;
+    font-weight: 400;
+    color: #888888;
+    margin: 32px;
+}
+
+.text {
+    margin: 32px;
+    color: #333;
+    overflow-wrap: break-word;
+    line-height: 1.7;
+}
+
+.hr {
+    margin: 32px;
+    border-top: 1px solid #999;
+}
+
+.link {
+    color: #216cd3;
+    text-decoration: none;
+    border-bottom: 1px dashed;
+}
+
+.red {
+    color: rgb(253, 91, 91);
+}
+
+.b {
+    font-weight: bold;
+}
+
+.choose {
+    margin: 80px auto;
+}
+
+.join {
+    width: 400px;
+    height: 100px;
+    background-color: #07c160;
+    margin: 50px auto;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 12px;
+}
